@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #f44336;
+  color: white;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 1rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+}
+
+.nav-links a {
+  margin: 0 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+.icons span {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
